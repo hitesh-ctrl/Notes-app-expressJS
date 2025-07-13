@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Note Viewer</title>
+  <link rel="stylesheet" href="/singleNote.css">
+</head>
+<body>
+
+  <div class="note">
+    <h1><%=note.title %></h1>
+    <small>Posted on <%=note.time%></small>
+    <p>
+      <%=note.content%>
+    </p>
+    <form action="/notes/<%=note.id%>/delete" method="post">
+      <button type="Delete" class="button-link">Delete note</button>
+    </form>
+    <a href="/notes" class="button-link">Back</a>
+  </div>
+
+</body>
+</html>

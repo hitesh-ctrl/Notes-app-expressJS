@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.note {
+  max-width: 600px;
+  margin: auto;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.note h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.note small {
+  color: #777;
+  font-size: 0.9rem;
+}
+
+.note p {
+  margin-top: 1rem;
+  line-height: 1.6;
+}
+
+a.button-link,
+button.button-link {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 0.8rem;
+  background-color: #6366f1;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  text-decoration: none;
+  margin-top: 0.8rem;
+}
+
+a.button-link:hover,
+button.button-link:hover {
+  background-color: #4f46e5;
+}
