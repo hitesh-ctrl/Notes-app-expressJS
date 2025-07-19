@@ -108,7 +108,7 @@ Restarting the server will **clear all notes**.
 
 ## 👨‍💻 Author
 
-**Your Name**  
+**V Hitesh**  
 GitHub: [@hitesh-ctrl](https://github.com/hitesh-ctrl)
 
 ---
